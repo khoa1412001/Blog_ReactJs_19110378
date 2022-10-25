@@ -1,6 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = [
-  { id: "0", title: "Learning Redux Toolkit", content: "Hard af", comment: [] },
+  {
+    id: "0",
+    title: "19110378 Banh Dang Khoa",
+    content: "Blog with Reactjs",
+    comment: [
+      { id: "0", author: "Khoa", comment: "Blog duoc viet bang reactjs" },
+    ],
+  },
 ];
 
 const postsSlice = createSlice({
